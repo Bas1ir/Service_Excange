@@ -1,0 +1,318 @@
+
+
+.wrapper{
+    font-family: "Montserrat", sans-serif;
+    max-width: 1366px;/*для выравнивания текста*/
+    margin: 0 auto;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 96px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    top: 52px;
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.kolvo label,
+.days label,
+.pay label,
+.garantiya label{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+/*логотип*/
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 300px;
+    height: 130px;
+    position: relative;
+    top: 10px;
+}
+
+
+/*Название*/
+.name{
+    display: flex;
+    position: relative;
+    top: 42px;
+}
+.name input{
+    font-size: 24px;
+    position: relative;
+    outline: none;
+    border: 2px solid transparent;
+    border-color: rgba(109, 121, 247, 1);
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    left:190px;
+    top: 15px;
+}
+
+
+/*Опыт работы*/
+.exp{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.exp select{
+    font-size: 24px;
+    position: relative;
+    border: 2px solid rgba(109, 121, 247, 1);
+    outline: none;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    left: 226px;
+    top: 15px;
+}
+.exp option{
+    font-size: 18px;
+}
+
+
+/*Ваш адрес*/
+.address{
+    position: relative;
+    top: 53px;
+    display: flex;
+    align-items: center;
+}
+.address input{
+    font-size: 24px;
+    position: relative;
+    left: 250px;
+    border: 2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+    outline: none;
+    height: 35px;
+}
+
+
+/*Состав рабочих*/
+.kolvo{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.kolvo li{
+    display: flex;
+    align-items : center;
+}
+.kolvo input, label{
+    position: relative;
+    left: 33px;
+    top:5px;
+}
+.kolvo input{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.kolvo label {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/*Оплата*/
+.pay{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.radio{
+    display: none;
+}
+.pay form{
+    position: relative;
+    top: 20px;
+    left: 140px;
+}
+.label{
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+}
+#size-1:checked ~ .label-1,
+#size-2:checked ~ .label-2
+{
+    background-color: rgba(109, 121, 247, 1);
+}
+
+
+/*Гарантия*/
+.garantiya{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.radio_gar{
+    display: none;
+}
+.garantiya form{
+    position: relative;
+    top: 20px;
+    left: 236px;
+}
+.label_gar{
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+}
+#size_gar-1:checked ~ .label_gar-1,
+#size_gar-2:checked ~ .label_gar-2
+{
+    background-color: rgba(109, 121, 247, 1);
+}
+
+
+/*Дни недели*/
+.days{
+    display: flex;
+    position: relative;
+    top: 53px;
+}
+.checkboxes__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.checkboxes__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 350px;
+    width: 100%;
+}
+.checkboxes__label1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 330px;
+    margin-bottom: 10px;
+}
+.days input{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.days span{
+    margin-left: 10px;
+}
+
+
+/*Описание*/
+.description textarea{
+    position: relative;
+    top: 30px;
+    width: 500px;
+    height: 100px;
+    border: 2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+}
+.description p{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+
+
+/*стоимость*/
+.price{
+    position: relative;
+    top: 25px;
+}
+.price input{
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border:2px solid rgba(109, 121, 247, 1);
+}
+.price div{
+    display: flex;
+    align-items: center;
+}
+
+
+/*Фотографии*/
+.photo{
+    position: relative;
+    top: 10px;
+}
+.photo p{
+    position: relative;
+    top: 20px;
+}
+.photo button{  
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    height: 180px;
+}
+.photo img{
+    width: 70px;
+}
+.photo h4{
+    font-size: 17px;
+    font-weight: 400;
+    position: relative;
+    bottom: 20px;
+}
+
+
+/*Контакты*/
+.phone{
+    display: flex;
+    align-items: center;
+}
+.phone p{
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+.phone input{
+    border:2px solid rgba(109, 121, 247, 1);
+    border-radius: 10px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    left: 130px;
+}
+
+
+/**/
+.save{
+    cursor: pointer;
+    position: relative;
+    top: 53px;
+    height: 70px;
+    width: 200px;
+    border: 2px solid rgba(109, 121, 247, 1);
+    background-color: rgba(109, 121, 247, 1);
+    border-radius: 10px;
+    color: white;
+
+    font-size: 32px;
+    font-weight: 700;
+}

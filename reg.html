@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/reg_login.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="nazvanie"> Обмен услугами</h1>
+        <form action="register.php" method="post">
+
+            <div class="wrapper">
+                <h1>Registration</h1>
+                
+                <div class="input-box">
+                    <input type="text" class="name" placeholder="login" name="login" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" class="email-reg" placeholder="Email" name="email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" class="password-reg" placeholder="Password" name="pass" required>
+                </div>
+                
+                <button type="submit" class="btn-reg"><p class="q">Registration</p></button>
+                <div class="log">
+                    <p>Already have an account?  <a href="/log.html" class="regs">Login</a></p>
+                </div>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
