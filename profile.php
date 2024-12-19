@@ -1,55 +1,13 @@
-<?php
-
-
-
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/profile.css">
+    <link rel="stylesheet" href="/Service_Excange/css/profile.css">
     <title>Профиль пользователя</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="logo">
-            <a href="uslugi.html"><img src="/img1/logo.png" alt=""></a>
-            <h1>Профиль пользователя</h1>
-            <a class="settings" href="/edit_profile.php"><img src="/img1/настройки.png" alt=""></a>
-        </div>
-        <div class="info">
-            <div class="ava">
-                <img src="/img1/фотик.png" alt="">
-            </div> <br>
-            <div class="infp_profile">
-                <label class="name">Имя:</label> <br>
-                <span> фыв</span>
-            </div>
-            <div>
-                <label class="surname">Фамилия:</label> <br>
-                <span> фывов </span>
-            </div>
-            <div>
-                <label class="number">Номер телефона:</label> <br>
-                <span> 8999 </span>
-            </div>
-            <div>
-                <label class="email">Email:</label> <br>
-                <span> 8888 </span>
-            </div>
-            <div>
-                <label class="age">Возраст:</label> <br>
-                <span> 27 </span>
-            </div>
-            <div></div>
-                <label class="city">Город:</label> <br>
-                <span> Казань </span> 
-            </div>
-        </div>
         <h2>Мои услуги</h2>
         <div class="uslugi_my_profile">
             <div>
@@ -71,6 +29,6 @@
                 <span class="city_uslugi">г. Казань</span>
             </div>
         </div>
-
+    </div>
 </body>
 </html>

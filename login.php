@@ -14,7 +14,7 @@ if(empty($login) || empty($pass))
     if($result->num_rows > 0) /* если получит строчку */
     { 
         while($row = $result->fetch_assoc()){
-            header ('Location:uslugi.html');
+            header ('Location:uslugi.php');
         }
     } else{
         echo "Нет такого пользователя или пароль был введен не праавильно";
